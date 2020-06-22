@@ -1,0 +1,74 @@
+- name: Documentação híbrida do Azure
+  href: index.yml
+- name: Visão geral
+  items:
+    - name: Exemplos de solução e padrões híbridos
+      href: overview-patterns-solution-examples.md
+- name: Padrões
+  items:
+    - name: Single
+      items:
+        - name: Escala entre nuvens
+          href: pattern-cross-cloud-scale.md
+        - name: CI/CD híbrido de DevOps
+          href: pattern-cicd-pipeline.md
+        - name: Aplicativo distribuído geograficamente
+          href: pattern-geo-distributed.md
+        - name: Retransmissão híbrida
+          href: pattern-hybrid-relay.md
+        - name: Dados em camadas
+          href: pattern-tiered-data-analytics.md
+        - name: Treinar modelo de ML na borda
+          href: pattern-train-ml-model-at-edge.md
+    - name: Multi
+      items:
+        - name: Escala entre nuvens (dados locais)
+          href: pattern-cross-cloud-scale-onprem-data.md
+        - name: Detecção de clientela (varejo)
+          href: pattern-retail-footfall-detection.md
+        - name: Detecção de indisponibilidade de estoque na borda
+          href: pattern-out-of-stock-at-edge.md
+- name: Guias de implantação de solução
+  items:
+    - name: Escala entre nuvens
+      href: solution-deployment-guide-cross-cloud-scaling.md
+    - name: Escala entre nuvens (dados locais)
+      href: solution-deployment-guide-cross-cloud-scaling-onprem-data.md
+    - name: CI/CD híbrido de DevOps
+      href: 'https://aka.ms/hybriddevopsdeploy'
+    - name: Detecção de clientela (varejo)
+      href: solution-deployment-guide-retail-footfall-detection.md
+    - name: Aplicativo distribuído geograficamente
+      href: solution-deployment-guide-geo-distributed.md
+    - name: Conectividade híbrida
+      href: solution-deployment-guide-connectivity.md
+    - name: Identidade híbrida
+      href: solution-deployment-guide-identity.md
+    - name: Retransmissão híbrida
+      href: 'https://aka.ms/hybridrelaydeployment'
+    - name: Dados em camadas
+      href: 'https://aka.ms/tiereddatadeploy'
+    - name: MongoDB de alta disponibilidade
+      href: solution-deployment-guide-mongodb-ha.md
+    - name: SQL Server 2016 de alta disponibilidade
+      href: solution-deployment-guide-sql-ha.md
+    - name: Indisponibilidade de estoque na borda
+      href: 'https://aka.ms/edgeinferencingdeploy'
+    - name: Treinamento de modelos de ML na borda
+      href: 'https://aka.ms/edgetrainingdeploy'
+- name: Conceitos
+  items:
+    - name: Considerações de design de aplicativo híbrido
+      href: overview-app-design-considerations.md
+- name: Relacionados
+  items:
+    - name: Documentação do Azure
+      href: /azure
+    - name: Documentação do Azure Stack
+      href: /azure-stack
+- name: Recursos
+  items:
+    - name: Microsoft Learn
+      href: /learn
+    - name: P e R da Microsoft
+      href: /answers/products/

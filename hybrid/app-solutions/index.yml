@@ -1,0 +1,72 @@
+### YamlMime:Landing
+title: Documentação de soluções e padrões híbridos do Azure
+summary: Saiba como aproveitar os padrões híbridos e exemplos de solução no desenvolvimento de seu aplicativo. O Azure e o Azure Stack permitem o desenvolvimento de aplicativos híbridos, criados em um pacote de serviços de nuvem e borda inteligentes.
+metadata:
+  title: Documentação de soluções e padrões híbridos do Azure
+  description: Saiba como aproveitar os padrões híbridos e exemplos de solução no desenvolvimento de seu aplicativo. O Azure e o Azure Stack permitem o desenvolvimento de aplicativos híbridos, criados em um pacote de serviços de nuvem e borda inteligentes.
+  ms.service: azure-stack
+  ms.topic: landing-page
+  author: BryanLa
+  ms.author: bryanla
+  ms.date: 10/31/2019
+  ms.openlocfilehash: 923e8aa2af78b5d23ba1f25d8b0eb5b80edc4f0a
+  ms.sourcegitcommit: bb3e40b210f86173568a47ba18c3cc50d4a40607
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 06/17/2020
+  ms.locfileid: "84909615"
+landingContent:
+- title: Sobre soluções e padrões híbridos
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: O que são os exemplos de solução e padrões híbridos?
+      url: overview-patterns-solution-examples.md
+  - linkListType: concept
+    links:
+    - text: Considerações de design de aplicativo híbrido
+      url: overview-app-design-considerations.md
+- title: Explorar padrões híbridos
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Escala entre nuvens
+      url: pattern-cross-cloud-scale.md
+    - text: CI/CD híbrido de DevOps
+      url: pattern-cicd-pipeline.md
+    - text: Detecção de clientela (varejo)
+      url: pattern-retail-footfall-detection.md
+    - text: Aplicativo distribuído geograficamente
+      url: pattern-geo-distributed.md
+- title: Implantar exemplos de solução híbrida
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: Escala entre nuvens
+      url: solution-deployment-guide-cross-cloud-scaling.md
+    - text: CI/CD híbrido de DevOps
+      url: https://aka.ms/hybriddevopsdeploy
+    - text: Detecção de clientela (varejo)
+      url: solution-deployment-guide-retail-footfall-detection.md
+    - text: Aplicativo distribuído geograficamente
+      url: solution-deployment-guide-geo-distributed.md
+- title: Cenário de detecção de clientela de varejo
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Padrão
+      url: pattern-retail-footfall-detection.md
+  - linkListType: tutorial
+    links:
+    - text: Guia de implantação de solução
+      url: solution-deployment-guide-retail-footfall-detection.md
+- title: Escala entre nuvens usando cenário de dados local
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: Padrão
+      url: pattern-cross-cloud-scale-onprem-data.md
+  - linkListType: tutorial
+    links:
+    - text: Guia de implantação de solução
+      url: solution-deployment-guide-cross-cloud-scaling-onprem-data.md
