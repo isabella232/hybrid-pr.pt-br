@@ -64,7 +64,7 @@ Verifique se os aplicativos implantados localmente estão configurados para alta
 
 A solução de nuvem cruzada garante o gerenciamento contínuo e a interface familiar entre ambientes. O PowerShell é recomendado para gerenciamento de plataforma cruzada.
 
-## <a name="cross-cloud-scaling"></a>Dimensionamento entre nuvem
+## <a name="cross-cloud-scaling"></a>Escala entre nuvens
 
 ### <a name="get-a-custom-domain-and-configure-dns"></a>Obter um domínio personalizado e configurar o DNS
 

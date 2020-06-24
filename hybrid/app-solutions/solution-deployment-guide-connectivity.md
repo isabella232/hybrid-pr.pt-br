@@ -39,7 +39,7 @@ Alguns componentes são necessários para criar uma implantação de conectivida
 - Se você não tiver uma assinatura do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
 - Crie um [aplicativo Web](https://docs.microsoft.com/vsts/build-release/apps/cd/azure/aspnet-core-to-azure-webapp?view=vsts&tabs=vsts) no Azure. Anote a URL do aplicativo Web porque você precisará dela na solução.
 
-### <a name="azure-stack-hub"></a>Hub de Azure Stack
+### <a name="azure-stack-hub"></a>Azure Stack Hub
 
 Um parceiro de hardware/OEM do Azure pode implantar um hub de Azure Stack de produção e todos os usuários podem implantar um Kit de Desenvolvimento do Azure Stack (ASDK).
 

@@ -35,7 +35,7 @@ O padrão de roteamento de tráfego geográfico do hub de Azure Stack ou aplicat
 
 No diagrama, o Gerenciador de tráfego está localizado fora da nuvem pública, mas ele precisa ser capaz de coordenar o tráfego no datacenter local e na nuvem pública. O balanceador roteia o tráfego para localizações geográficas.
 
-#### <a name="domain-name-system-dns"></a>DNS (Sistema de Nomes de Domínio)
+#### <a name="domain-name-system-dns"></a>Sistema de nome de domínio (DNS)
 
 O sistema de nomes de domínio, ou DNS, é responsável por converter (ou seja, resolver) um nome do site ou serviço para seu endereço IP.
 
