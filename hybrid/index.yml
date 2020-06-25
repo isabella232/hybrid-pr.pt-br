@@ -9,13 +9,13 @@ metadata:
   ms.topic: hub-page
   author: BryanLa
   ms.author: bryanla
-  ms.date: 06/19/2020
-  ms.openlocfilehash: 4d2cd89f0375031c25820509290f4fe9336d0ca4
-  ms.sourcegitcommit: 058c7d4366cd015b8c5fbcba012f9e74be9f81cc
+  ms.date: 06/23/2020
+  ms.openlocfilehash: 07c1f66901ca5cfeb1fba10f4ae256a727fe9aed
+  ms.sourcegitcommit: 7e1ffd9825fce79d1d3972c0dfd0adc25f4adc0a
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 06/19/2020
-  ms.locfileid: "85111277"
+  ms.lasthandoff: 06/23/2020
+  ms.locfileid: "85289509"
 highlightedContent:
   items:
   - title: Evento virtual híbrido do Azure – 24 de junho de 2020
@@ -281,10 +281,10 @@ additionalContent:
       links:
       - url: /azure-stack/operator/compare-azure-azure-stack
         text: Azure global versus Azure Stack
-      - url: https://azure.microsoft.com/blog/topics/hybrid/
-        text: Blog híbrido do Azure
       - url: https://azure.microsoft.com/overview/azure-hybrid/
         text: Funcionalidades híbridas do Azure
+      - url: https://customers.microsoft.com/en-us/search?sq="hybrid cloud"
+        text: Histórias de nuvem híbrida do cliente
       - url: /learn
         text: Treinamento interativo do Microsoft Learn
       - url: /learn/tv/
@@ -295,6 +295,8 @@ additionalContent:
         text: Desenvolvimento do .NET para o Azure
       - url: https://github.com/likamrat/azure_arc
         text: Guias de início rápido do Azure Arc
+      - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
+        text: Certificado para dispositivos do Azure IoT Edge
       - url: /samples/browse/
         text: Navegador de exemplo de código
       - url: https://www.youtube.com/watch?v=2lw8zOpJTn0
@@ -307,7 +309,7 @@ additionalContent:
         text: Desenvolvimento do Azure no Visual Studio
     - title: Suporte e outros recursos
       links:
-      - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
-        text: Certificado para dispositivos do Azure IoT Edge
+      - url: https://azure.microsoft.com/blog/topics/hybrid/
+        text: Blog híbrido do Azure
       - url: /answers/products/
         text: Fóruns de P e R da Microsoft
