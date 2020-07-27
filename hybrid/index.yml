@@ -10,17 +10,20 @@ metadata:
   author: BryanLa
   ms.author: bryanla
   ms.date: 06/30/2020
-  ms.openlocfilehash: 9793f34db13e324de65b719613c0f4dbf4bdf127
-  ms.sourcegitcommit: 8d75007af6ad574e0629208464bbadb97a5c438e
+  ms.openlocfilehash: 5e47f05293640339329914a3183fae51649ded4c
+  ms.sourcegitcommit: ad41cc782094d57b506a3a1d98209f6cf94f0f3b
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 07/22/2020
-  ms.locfileid: "86949654"
+  ms.lasthandoff: 07/24/2020
+  ms.locfileid: "87121800"
 highlightedContent:
   items:
   - title: Descubra o novo Azure Stack HCI
     itemType: video
     url: https://azure.microsoft.com/resources/videos/discover-the-new-azure-stack-hci/
+  - title: 'Inspire 2020: novidades do Azure Stack HCI'
+    itemType: video
+    url: https://myinspire.microsoft.com/sessions/4a50e354-b3a8-4d54-9d2a-9dc723ac1030
   - title: Evento virtual híbrido do Azure
     itemType: video
     url: https://www.youtube.com/playlist?list=PLLasX02E8BPDY8lteNSno4etuLx-6bALf
@@ -258,7 +261,7 @@ additionalContent:
         text: O que são os exemplos de solução e padrões?
       - url: ./app-solutions/overview-app-design-considerations.md
         text: Considerações de design de aplicativo híbrido
-    - title: Explorar padrões híbridos
+    - title: Explorar padrões de aplicativo híbrido
       links:
       - url: ./app-solutions/pattern-cross-cloud-scale.md
         text: Escala entre nuvens
@@ -268,7 +271,7 @@ additionalContent:
         text: Detecção de clientela (varejo)
       - url: ./app-solutions/pattern-geo-distributed.md
         text: Aplicativo distribuído geograficamente
-    - title: Implantar exemplos de solução híbrida
+    - title: Implantar exemplos de solução de aplicativo híbrido
       links:
       - url: ./app-solutions/solution-deployment-guide-cross-cloud-scaling.md
         text: Escala entre nuvens
@@ -298,6 +301,8 @@ additionalContent:
         text: Desenvolvimento do .NET para o Azure
       - url: https://github.com/likamrat/azure_arc
         text: Guias de início rápido do Azure Arc
+      - url: https://github.com/Azure/AzureStackHCI-EvalGuide
+        text: Guia de avaliação do Azure Stack HCI
       - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
         text: Certificado para dispositivos do Azure IoT Edge
       - url: /samples/browse/
