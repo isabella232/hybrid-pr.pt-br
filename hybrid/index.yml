@@ -10,12 +10,12 @@ metadata:
   author: BryanLa
   ms.author: bryanla
   ms.date: 06/30/2020
-  ms.openlocfilehash: 5e47f05293640339329914a3183fae51649ded4c
-  ms.sourcegitcommit: ad41cc782094d57b506a3a1d98209f6cf94f0f3b
+  ms.openlocfilehash: b888756accc1e538d358e91aec6740b392dafea0
+  ms.sourcegitcommit: 72dbbc933220a4e7273abf46ad3fc6032d122ca7
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 07/24/2020
-  ms.locfileid: "87121800"
+  ms.lasthandoff: 07/31/2020
+  ms.locfileid: "87473778"
 highlightedContent:
   items:
   - title: Descubra o novo Azure Stack HCI
@@ -56,7 +56,7 @@ productDirectory:
     - url: /azure-stack/hci
       text: Azure Stack HCI
   - title: Plataformas de borda inteligente para dispositivos.
-    imageSrc: media/index/azure-stack-hub.svg
+    imageSrc: media/index/intelligent.svg
     links:
     - url: /azure/iot-edge/
       text: Azure IoT Edge
@@ -251,6 +251,20 @@ conceptualContent:
     - url: /azure/fxt-edge-filer/fxt-overview
       itemType: overview
       text: Azure FXT Edge Filer
+  - title: Ferramentas
+    links:
+    - url: /dotnet/azure/
+      itemType: overview
+      text: Desenvolvimento do .NET para o Azure
+    - url: https://azure.github.io/Vision-AI-DevKit-Pages/
+      itemType: overview
+      text: Kit do desenvolvedor de IA da Pesquisa Visual
+    - url: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools
+      itemType: overview
+      text: Azure IoT Tools para Visual Studio Code
+    - url: /visualstudio/azure/
+      itemType: overview
+      text: Desenvolvimento do Azure no Visual Studio
 additionalContent:
   sections:
   - title: Soluções híbridas
@@ -283,41 +297,43 @@ additionalContent:
         text: Aplicativo distribuído geograficamente
   - title: Recursos adicionais
     items:
-    - title: Recursos gerais
+    - title: Geral
       links:
       - url: /azure-stack/operator/compare-azure-azure-stack
-        text: Azure global versus Azure Stack
+        text: Nuvem global do Azure versus Azure Stack
+      - url: https://azure.microsoft.com/blog/topics/hybrid/
+        text: Blog híbrido do Azure
       - url: https://azure.microsoft.com/overview/azure-hybrid/
         text: Funcionalidades híbridas do Azure
+      - url: https://channel9.msdn.com/Search?term=%22Azure%20Stack%20Hub%20Partner%20Solutions%20Series%22
+        text: Soluções do Azure Stack Hub do cliente
       - url: https://customers.microsoft.com/en-us/search?sq="hybrid cloud"
         text: Histórias de nuvem híbrida do cliente
-      - url: /learn
-        text: Treinamento interativo do Microsoft Learn
-      - url: /learn/tv/
-        text: Microsoft Learn TV
-    - title: Recursos para criação e operação
+      - url: /answers/products/
+        text: Fóruns de P e R da Microsoft
+    - title: Avaliação e aprendizado
       links:
-      - url: /dotnet/azure/
-        text: Desenvolvimento do .NET para o Azure
       - url: https://github.com/likamrat/azure_arc
         text: Guias de início rápido do Azure Arc
+      - url: https://github.com/Azure-Samples/AI-Video-Intelligence-Solution-Accelerator
+        text: Acelerador de solução de inteligência de vídeo de IA do Azure IoT Edge
+      - url: https://labs.iotedge.dev/
+        text: Laboratórios práticos do Azure IoT Edge
+      - url: https://www.azureiotsolutions.com/Accelerators
+        text: Aceleradores de solução de IoT do Azure
+      - url: /azure-stack/asdk
+        text: Kit de desenvolvimento do Azure Stack
       - url: https://github.com/Azure/AzureStackHCI-EvalGuide
         text: Guia de avaliação do Azure Stack HCI
+      - url: https://www.youtube.com/watch?v=to8D7Xl9SU8
+        text: Introdução aos aplicativos híbridos do Azure Stack
       - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
         text: Certificado para dispositivos do Azure IoT Edge
       - url: /samples/browse/
-        text: Navegador de exemplo de código
+        text: Navegador de exemplos de código
+      - url: https://docs.docker.com/
+        text: Documentos do Docker
       - url: https://www.youtube.com/watch?v=2lw8zOpJTn0
         text: Dimensionar dinamicamente do Azure Stack Hub para o Azure
-      - url: https://labs.iotedge.dev/
-        text: Laboratórios práticos do IoT Edge
-      - url: https://azure.github.io/Vision-AI-DevKit-Pages/
-        text: Kit do desenvolvedor de IA da Pesquisa Visual
-      - url: /visualstudio/azure/
-        text: Desenvolvimento do Azure no Visual Studio
-    - title: Suporte e outros recursos
-      links:
-      - url: https://azure.microsoft.com/blog/topics/hybrid/
-        text: Blog híbrido do Azure
-      - url: /answers/products/
-        text: Fóruns de P e R da Microsoft
+      - url: /learn
+        text: Microsoft Learn
