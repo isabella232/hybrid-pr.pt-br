@@ -10,12 +10,12 @@ metadata:
   author: BryanLa
   ms.author: bryanla
   ms.date: 09/02/2020
-  ms.openlocfilehash: 8109b1b42c133afa3179b362c543118965486ac7
-  ms.sourcegitcommit: 64698a0824c87d0838b57cff05187f4225bb619c
+  ms.openlocfilehash: fe346e09aba6e073f291037eb767a3936dea3a99
+  ms.sourcegitcommit: 1c9d681b45f3cc91fd6896badf998be68e284a35
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 09/24/2020
-  ms.locfileid: "91209698"
+  ms.lasthandoff: 09/28/2020
+  ms.locfileid: "91407711"
 highlightedContent:
   items:
   - title: 'Ignite 2020: Sessões híbridas'
@@ -263,20 +263,6 @@ conceptualContent:
     - url: /azure/fxt-edge-filer/fxt-overview
       itemType: overview
       text: Azure FXT Edge Filer
-  - title: Ferramentas
-    links:
-    - url: /dotnet/azure/
-      itemType: overview
-      text: Desenvolvimento do .NET para o Azure
-    - url: https://azure.github.io/Vision-AI-DevKit-Pages/
-      itemType: overview
-      text: Kit do desenvolvedor de IA da Pesquisa Visual
-    - url: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools
-      itemType: overview
-      text: Azure IoT Tools para Visual Studio Code
-    - url: /visualstudio/azure/
-      itemType: overview
-      text: Desenvolvimento do Azure no Visual Studio
 additionalContent:
   sections:
   - title: Soluções híbridas
@@ -308,47 +294,113 @@ additionalContent:
         text: Detecção de clientela (varejo)
       - url: ./app-solutions/solution-deployment-guide-geo-distributed.md
         text: Aplicativo distribuído geograficamente
-  - title: Recursos adicionais
+  - title: Recursos de avaliação e aprendizado
     items:
-    - title: Geral
+    - title: Azure Stack Hub
       links:
-      - url: /azure-stack/operator/compare-azure-azure-stack
-        text: Nuvem global do Azure versus Azure Stack
-      - url: https://azure.microsoft.com/blog/topics/hybrid/
-        text: Blog híbrido do Azure
-      - url: https://azure.microsoft.com/overview/azure-hybrid/
-        text: Funcionalidades híbridas do Azure
-      - url: https://www.youtube.com/playlist?list=PLLasX02E8BPDY8lteNSno4etuLx-6bALf
-        text: Evento virtual híbrido do Azure
-      - url: https://channel9.msdn.com/Search?term=%22Azure%20Stack%20Hub%20Partner%20Solutions%20Series%22
-        text: Soluções do Azure Stack Hub do cliente
-      - url: https://customers.microsoft.com/en-us/search?sq="hybrid cloud"
-        text: Histórias de nuvem híbrida do cliente
-      - url: /answers/products/
-        text: Fóruns de P e R da Microsoft
-    - title: Avaliação e aprendizado
-      links:
-      - url: https://github.com/likamrat/azure_arc
-        text: Guias de início rápido do Azure Arc
-      - url: https://github.com/Azure-Samples/AI-Video-Intelligence-Solution-Accelerator
-        text: Acelerador de solução de inteligência de vídeo de IA do Azure IoT Edge
-      - url: https://labs.iotedge.dev/
-        text: Laboratórios práticos do Azure IoT Edge
-      - url: https://www.azureiotsolutions.com/Accelerators
-        text: Aceleradores de solução de IoT do Azure
       - url: /azure-stack/asdk
         text: Kit de desenvolvimento do Azure Stack
       - url: https://github.com/Azure/AzureStackHCI-EvalGuide
         text: Guia de avaliação do Azure Stack HCI
       - url: https://www.youtube.com/watch?v=to8D7Xl9SU8
         text: Introdução aos aplicativos híbridos do Azure Stack
-      - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
-        text: Certificado para dispositivos do Azure IoT Edge
-      - url: /samples/browse/
-        text: Navegador de exemplos de código
-      - url: https://docs.docker.com/
-        text: Documentos do Docker
       - url: https://www.youtube.com/watch?v=2lw8zOpJTn0
         text: Dimensionar dinamicamente do Azure Stack Hub para o Azure
+    - title: Microsoft Edge
+      links:
+      - url: https://github.com/Azure-Samples/AI-Video-Intelligence-Solution-Accelerator
+        text: Acelerador de solução de inteligência de vídeo de IA do Azure IoT Edge
+      - url: https://labs.iotedge.dev/
+        text: Laboratórios práticos do Azure IoT Edge
+      - url: https://www.azureiotsolutions.com/Accelerators
+        text: Aceleradores de solução de IoT do Azure
+      - url: https://catalog.azureiotsolutions.com/alldevices?filters={%2218%22:[%221%22]}
+        text: Certificado para dispositivos do Azure IoT Edge
+    - title: Geral
+      links:
+      - url: /learn/modules/align-requirements-in-azure/
+        text: Alinhar os requisitos com tipos de nuvem e modelos de serviço no Azure
+      - url: https://azure.microsoft.com/overview/azure-hybrid/
+        text: Funcionalidades híbridas do Azure
+      - url: https://www.youtube.com/playlist?list=PLLasX02E8BPDY8lteNSno4etuLx-6bALf
+        text: Evento virtual híbrido do Azure
+      - url: /learn/modules/intro-to-azure-hybrid-services/
+        text: Introdução à nuvem híbrida do Azure
       - url: /learn
         text: Microsoft Learn
+    - title: Identidade e segurança
+      links:
+      - url: /learn/modules/azure-sentinel-deploy-configure/
+        text: Implantar o Azure Sentinel e conectar fontes de dados
+      - url: /learn/modules/implement-hybrid-identity-windows-server/
+        text: Implementar identidade híbrida com o Windows Server
+      - url: /learn/modules/intro-to-azure-sentinel/
+        text: Introdução ao Azure Sentinel
+      - url: /learn/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/
+        text: Gerenciamento, monitoramento e segurança da nuvem híbrida do Windows Server
+    - title: Gerenciamento
+      links:
+      - url: https://github.com/likamrat/azure_arc
+        text: Guias de início rápido do Azure Arc
+      - url: /learn/modules/describe-high-availability-disaster-recovery-strategies/
+        text: Estratégias de alta disponibilidade e recuperação de desastre
+      - url: /learn/modules/explore-iaas-paas-platform-tools-for-high-availability-disaster-recovery/
+        text: Ferramentas da plataforma de IaaS e PaaS para alta disponibilidade e recuperação de desastre
+      - url: /learn/modules/intro-to-azure-arc/
+        text: Introdução ao Azure Arc
+      - url: /learn/modules/manage-hybrid-workloads-azure-arc/
+        text: Gerenciar cargas de trabalho híbridas com o Azure Arc
+      - url: /learn/modules/monitor-windows-server-iaas-virtual-machines-hybrid-instances/
+        text: Monitorar máquinas virtuais IaaS do Windows Server e instâncias híbridas
+      - url: /learn/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/
+        text: Gerenciamento, monitoramento e segurança da nuvem híbrida do Windows Server
+    - title: Rede
+      links:
+      - url: /learn/modules/design-a-hybrid-network-architecture/
+        text: Projetar uma arquitetura de rede híbrida no Azure
+      - url: /learn/modules/expose-hybrid-services-with-azure-relay/
+        text: Expor serviços híbridos com segurança com a Retransmissão do Azure
+      - url: /learn/modules/implement-hybrid-network-infrastructure/
+        text: Implementar a infraestrutura de rede híbrida
+    - title: Armazenamento
+      links:
+      - url: /learn/modules/implement-hybrid-file-server-infrastructure/
+        text: Implementar a infraestrutura de servidor de arquivos híbrido
+      - url: /learn/modules/implement-hybrid-backup-recovery-windows-server-iaas/
+        text: Implementar o backup híbrido e a recuperação com o IaaS do Windows Server
+  - title: Recursos adicionais
+    items:
+    - title: Desenvolvedor
+      links:
+      - url: /azure/developer/
+        text: Documentos e ferramentas do desenvolvedor do Azure
+      - url: /azure/architecture/hybrid/azure-arc-hybrid-config
+        text: Arquiteturas híbridas do Azure
+      - url: https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools
+        text: Azure IoT Tools para Visual Studio Code
+      - url: /samples/browse/
+        text: Navegador de exemplos de código
+      - url: https://azure.github.io/Vision-AI-DevKit-Pages/
+        text: Kit do desenvolvedor de IA da Pesquisa Visual
+      - url: /visualstudio/azure/
+        text: Desenvolvimento do Azure no Visual Studio
+    - title: Geral
+      links:
+      - url: https://azure.microsoft.com/blog/topics/hybrid/
+        text: Blog híbrido do Azure
+      - url: https://azure.microsoft.com/overview/azure-hybrid/
+        text: Funcionalidades híbridas do Azure
+      - url: https://channel9.msdn.com/Search?term=%22Azure%20Stack%20Hub%20Partner%20Solutions%20Series%22
+        text: Soluções do Azure Stack Hub do cliente
+      - url: https://customers.microsoft.com/en-us/search?sq="hybrid cloud"
+        text: Histórias de nuvem híbrida do cliente
+    - title: Ajuda + Suporte
+      links:
+      - url: https://azure.microsoft.com/support/options/
+        text: Suporte do Azure
+      - url: https://feedback.azure.com/
+        text: Comentários de voz do usuário do Azure
+      - url: /answers/products/
+        text: Fóruns de P e R da Microsoft
+      - url: https://stackoverflow.com/
+        text: Stack Overflow
