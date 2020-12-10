@@ -26,6 +26,8 @@
           href: pattern-cross-cloud-scale-onprem-data.md
         - name: Detecção de clientela (varejo)
           href: pattern-retail-footfall-detection.md
+        - name: Clusters do Kubernetes com alta disponibilidade
+          href: pattern-highly-available-kubernetes.md
         - name: Detecção de indisponibilidade de estoque na borda
           href: pattern-out-of-stock-at-edge.md
 - name: Guias de implantação de solução
@@ -40,6 +42,8 @@
       href: solution-deployment-guide-retail-footfall-detection.md
     - name: Aplicativo distribuído geograficamente
       href: solution-deployment-guide-geo-distributed.md
+    - name: Clusters do Kubernetes com alta disponibilidade
+      href: solution-deployment-guide-highly-available-kubernetes.md
     - name: Conectividade híbrida
       href: solution-deployment-guide-connectivity.md
     - name: Identidade híbrida
