@@ -7,14 +7,14 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 2c20d621247ec8e1278feb092586232cc08d5480
-ms.sourcegitcommit: 485a1f97fa1579364e2be1755cadfc5ea89db50e
+ms.openlocfilehash: 0f857515a44ece7f967ade3dee8f493481709851
+ms.sourcegitcommit: c890f2c5e5e5f9f93c921f02dd1a6ca5026d5289
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91852466"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97091795"
 ---
-# <a name="deploy-a-sql-server-2016-availability-group-to-azure-and-azure-stack-hub"></a>Implantar um grupo de disponibilidade do SQL Server 2016 no Azure e Azure Stack Hub
+# <a name="deploy-a-sql-server-2016-availability-group-across-two-azure-stack-hub-environments"></a>Implantar um grupo de disponibilidade do SQL Server 2016 em dois ambientes do Azure Stack Hub
 
 Este artigo guiará você na implantação automatizada de um cluster SQL Server 2016 Enterprise básico de alta disponibilidade (HA) com um site de DR (recuperação de desastre) assíncrona em dois ambientes do Azure Stack Hub. Para saber mais sobre o SQL Server 2016 e a alta disponibilidade, confira [Grupos de disponibilidade Always On: uma solução de alta disponibilidade e recuperação de desastre](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server?view=sql-server-2016).
 

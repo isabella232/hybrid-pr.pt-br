@@ -7,14 +7,14 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: def9abaa2a7231648f11453f66119399be015a4d
-ms.sourcegitcommit: 485a1f97fa1579364e2be1755cadfc5ea89db50e
+ms.openlocfilehash: 624f032def509d8e42d55807d72176e5fce85910
+ms.sourcegitcommit: df7e3e6423c3d4e8a42dae3d1acfba1d55057258
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91852500"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96901500"
 ---
-# <a name="deploy-a-highly-available-mongodb-solution-to-azure-and-azure-stack-hub"></a>Implantar uma solução MongoDB de alta disponibilidade no Azure e Azure Stack Hub
+# <a name="deploy-a-highly-available-mongodb-solution-across-two-azure-stack-hub-environments"></a>Implantar uma solução MongoDB de alta disponibilidade em dois ambientes do Azure Stack Hub
 
 Este artigo guiará você na implantação automatizada de um cluster MongoDB básico de alta disponibilidade (HA) com um site de DR (recuperação de desastre) em dois ambientes do Azure Stack Hub. Para saber mais sobre o MongoDB e a alta disponibilidade, confira [Membros do conjunto de réplicas](https://docs.mongodb.com/manual/core/replica-set-members/).
 

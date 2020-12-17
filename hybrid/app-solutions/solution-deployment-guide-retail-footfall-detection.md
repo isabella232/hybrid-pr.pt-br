@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 5f2e18e164e54f60b1bb7a14026a0c75c7d7ce69
-ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.openlocfilehash: 2177b32474dea695967e197acbd4bc1e18422d7b
+ms.sourcegitcommit: df7e3e6423c3d4e8a42dae3d1acfba1d55057258
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86477160"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96901483"
 ---
 # <a name="deploy-an-ai-based-footfall-detection-solution-using-azure-and-azure-stack-hub"></a>Implantar uma solução de detecção de clientela baseada em IA usando o Azure e o Azure Stack Hub
 
@@ -26,7 +26,7 @@ Nesta solução, você aprenderá a:
 > - Use o Kit de desenvolvimento de IA da Visão Personalizada para inferência na borda.
 
 > [!Tip]  
-> ![hybrid-pillars.png](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
+> ![Diagrama dos pilares híbridos](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
 > O Microsoft Azure Stack Hub é uma extensão do Azure. O Azure Stack Hub traz a agilidade e a inovação da computação em nuvem para seu ambiente local, fornecendo a única nuvem híbrida que permite criar e implantar aplicativos híbridos em qualquer lugar.  
 > 
 > O artigo [Considerações de design de aplicativos híbridos](overview-app-design-considerations.md) examina os pilares da qualidade de software (posicionamento, escalabilidade, disponibilidade, resiliência, capacidade de gerenciamento e segurança) relativos ao design, à implantação e à operação de aplicativos híbridos. As considerações de design ajudam na otimização do design de aplicativos híbridos, reduzindo os desafios nos ambientes de produção.
@@ -44,7 +44,7 @@ Antes de começar a usar este guia de implantação, você deve:
 - Criar duas entidades de serviço em seu diretório:
   - Uma configuração para usar com recursos do Azure, com acesso no escopo da assinatura do Azure.
   - Uma configuração para usar com recursos do Azure Stack Hub, com acesso no escopo da assinatura do Azure Stack Hub.
-  - Para saber mais sobre como criar entidades de serviço e autorizar o acesso, confira [Usar uma identidade de aplicativo para acessar recursos](/azure-stack/operator/azure-stack-create-service-principals.md). Caso prefira usar a CLI do Azure, confira [Criar uma entidade de serviço do Azure com a CLI do Azure](/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest).
+  - Para saber mais sobre como criar entidades de serviço e autorizar o acesso, confira [Usar uma identidade de aplicativo para acessar recursos](/azure-stack/operator/azure-stack-create-service-principals.md). Caso prefira usar a CLI do Azure, confira [Criar uma entidade de serviço do Azure com a CLI do Azure](/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest&preserve-view=true).
 - Implantar Serviços Cognitivos do Azure no Azure ou no Azure Stack Hub.
   - Primeiro, [saiba mais sobre os Serviços Cognitivos](https://azure.microsoft.com/services/cognitive-services/).
   - Depois, visite [Implantar Serviços Cognitivos do Azure para Azure Stack Hub](/azure-stack/user/azure-stack-solution-template-cognitive-services.md) para implantar Serviços Cognitivos no Azure Stack Hub. Primeiro, você precisa se inscrever para acessar a versão prévia.
@@ -194,5 +194,5 @@ porter uninstall footfall-camera –tag intelligentedge/footfall-camera-deployme
 
 ## <a name="next-steps"></a>Próximas etapas
 
-- Saiba mais sobre [Considerações de design de aplicativo híbrido]. (overview-app-design-considerations.md)
+- Saiba mais sobre as [Considerações de design do aplicativo híbrido](overview-app-design-considerations.md)
 - Revise e proponha melhorias para [o código desse exemplo no GitHub](https://github.com/Azure-Samples/azure-intelligent-edge-patterns/tree/master/footfall-analysis).
