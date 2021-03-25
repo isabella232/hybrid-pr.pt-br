@@ -10,12 +10,12 @@ metadata:
   author: BryanLa
   ms.author: bryanla
   ms.date: 03/09/2021
-  ms.openlocfilehash: 198095c4a96cfcca76a89b47ecc5f716b6b6770a
-  ms.sourcegitcommit: 817b61dd59371b24281419936295da239a2cca18
+  ms.openlocfilehash: 23834253d05753219efbd5b5e15a216741388e8a
+  ms.sourcegitcommit: d218ae31c564b862f2d79bb560075f5983f1771c
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "104891076"
+  ms.lasthandoff: 03/24/2021
+  ms.locfileid: "105048911"
 highlightedContent:
   items:
   - title: 'Ignite 2021: sessões híbridas'
@@ -396,6 +396,18 @@ additionalContent:
         text: Implementar a infraestrutura de servidor de arquivos híbrido
       - url: /learn/modules/implement-hybrid-backup-recovery-windows-server-iaas/
         text: Implementar o backup híbrido e a recuperação com o IaaS do Windows Server
+    - title: Windows Server
+      links:
+      - url: /learn/paths/implement-windows-server-hybrid-cloud-infrastructure/
+        text: Implementar uma infraestrutura de nuvem híbrida do Windows Server
+      - url: /learn/modules/implement-hybrid-backup-recovery-windows-server-iaas/
+        text: Implementar o backup híbrido e a recuperação com o IaaS do Windows Server
+      - url: /learn/modules/implement-hybrid-identity-windows-server/
+        text: Implementar identidade híbrida com o Windows Server
+      - url: /learn/modules/monitor-windows-server-iaas-virtual-machines-hybrid-instances/
+        text: Monitorar máquinas virtuais IaaS do Windows Server e instâncias híbridas
+      - url: /learn/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/
+        text: Gerenciamento, monitoramento e segurança da nuvem híbrida do Windows Server
   - title: Recursos adicionais
     items:
     - title: Geral
