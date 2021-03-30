@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 16c5d7820e8c865a9f88cb00da5cc7c854379414
-ms.sourcegitcommit: d2def847937178f68177507be151df2aa8e25d53
+ms.openlocfilehash: 4480f51b03082f2a0cbb7f2f213e05b7bf488646
+ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86477279"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104895363"
 ---
 # <a name="configure-hybrid-cloud-connectivity-using-azure-and-azure-stack-hub"></a>Configurar a conectividade de nuvem híbrida usando o Azure e o Azure Stack Hub
 
@@ -25,7 +25,7 @@ Nesta solução, você criará um ambiente de exemplo para:
 > - Manter um sistema herdado ao usar recursos e implantação de aplicativos em escala de nuvem no Azure global.
 
 > [!Tip]  
-> ![hybrid-pillars.png](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
+> ![Diagrama dos pilares híbridos](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
 > O Microsoft Azure Stack Hub é uma extensão do Azure. O Azure Stack Hub traz a agilidade e a inovação da computação em nuvem para seu ambiente local, fornecendo a única nuvem híbrida que permite criar e implantar aplicativos híbridos em qualquer lugar.  
 > 
 > O artigo [Considerações de design de aplicativos híbridos](overview-app-design-considerations.md) examina os pilares da qualidade de software (posicionamento, escalabilidade, disponibilidade, resiliência, capacidade de gerenciamento e segurança) relativos ao design, à implantação e à operação de aplicativos híbridos. As considerações de design ajudam na otimização do design de aplicativos híbridos, reduzindo os desafios nos ambientes de produção.
@@ -37,7 +37,7 @@ Alguns componentes são necessários para criar uma implantação de conectivida
 ### <a name="azure"></a>Azure
 
 - Se você não tiver uma assinatura do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
-- Crie um [aplicativo Web](/vsts/build-release/apps/cd/azure/aspnet-core-to-azure-webapp?tabs=vsts&view=vsts) no Azure. Anote a URL do aplicativo Web, porque você precisará dela na solução.
+- Crie um [aplicativo Web](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs) no Azure. Anote a URL do aplicativo Web, porque você precisará dela na solução.
 
 ### <a name="azure-stack-hub"></a>Azure Stack Hub
 
@@ -47,9 +47,9 @@ Um parceiro de hardware/OEM do Azure pode implantar um Azure Stack Hub de produ�
    >[!Note]
    >A implantação do ASDK pode levar até sete horas, portanto, planeje com antecedência.
 
-- Implante serviços PaaS do [Serviço de Aplicativo](/azure-stack/operator/azure-stack-app-service-deploy.md) no Azure Stack Hub.
-- [Crie planos e ofertas](/azure-stack/operator/service-plan-offer-subscription-overview.md) no ambiente do Azure Stack Hub.
-- [Crie uma assinatura de locatário](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm.md) no ambiente do Azure Stack Hub.
+- Implante serviços PaaS do [Serviço de Aplicativo](/azure-stack/operator/azure-stack-app-service-deploy) no Azure Stack Hub.
+- [Crie planos e ofertas](/azure-stack/operator/service-plan-offer-subscription-overview) no ambiente do Azure Stack Hub.
+- [Crie uma assinatura de locatário](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm) no ambiente do Azure Stack Hub.
 
 ### <a name="azure-stack-hub-components"></a>Componentes do Azure Stack Hub
 
@@ -58,7 +58,7 @@ Um operador do Azure Stack Hub deve implantar o Serviço de Aplicativo, criar pl
 Este exemplo de solução pressupõe que você tenha algum conhecimento básico do Azure e do Azure Stack Hub. Para saber mais antes de iniciar a solução, leia os seguintes artigos:
 
 - [Introdução ao Azure](https://azure.microsoft.com/overview/what-is-azure/)
-- [Conceitos de chave do Azure Stack Hub](/azure-stack/operator/azure-stack-overview.md)
+- [Conceitos de chave do Azure Stack Hub](/azure-stack/operator/azure-stack-overview)
 
 ### <a name="before-you-begin"></a>Antes de começar
 
