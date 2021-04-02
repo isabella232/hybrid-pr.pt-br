@@ -7,12 +7,12 @@ ms.date: 11/05/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 11/05/2019
-ms.openlocfilehash: 5ae6c4323324fa104cd0e5c7b5198492be14b8eb
-ms.sourcegitcommit: 56980e3c118ca0a672974ee3835b18f6e81b6f43
+ms.openlocfilehash: ed2ad5bed8f4bd80d4a40ab7600842d5544ff97d
+ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88886808"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104895407"
 ---
 # <a name="deploy-an-app-that-scales-cross-cloud-using-azure-and-azure-stack-hub"></a>Implantar um aplicativo que escale entre nuvens usando o Azure e o Azure Stack Hub
 
@@ -30,7 +30,7 @@ Nesta solução, você criará um ambiente de exemplo para:
 > - Aprenda a monitorar e acompanhar suas implantações.
 
 > [!Tip]  
-> ![hybrid-pillars.png](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
+> ![diagrama dos pilares híbridos](./media/solution-deployment-guide-cross-cloud-scaling/hybrid-pillars.png)  
 > O Microsoft Azure Stack Hub é uma extensão do Azure. O Azure Stack Hub traz a agilidade e a inovação da computação em nuvem para seu ambiente local, fornecendo a única nuvem híbrida que permite criar e implantar aplicativos híbridos em qualquer lugar.  
 > 
 > O artigo [Considerações de design de aplicativos híbridos](overview-app-design-considerations.md) examina os pilares da qualidade de software (posicionamento, escalabilidade, disponibilidade, resiliência, capacidade de gerenciamento e segurança) relativos ao design, à implantação e à operação de aplicativos híbridos. As considerações de design ajudam na otimização do design de aplicativos híbridos, reduzindo os desafios nos ambientes de produção.
@@ -39,16 +39,16 @@ Nesta solução, você criará um ambiente de exemplo para:
 
 - Assinatura do Azure. Se necessário, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
 - Um sistema integrado do Azure Stack Hub ou implantação do ASDK (Kit de Desenvolvimento do Azure Stack).
-  - Para obter instruções sobre como instalar o Azure Stack Hub, confira [Instalar o ASDK](/azure-stack/asdk/asdk-install.md).
+  - Para obter instruções sobre como instalar o Azure Stack Hub, confira [Instalar o ASDK](/azure-stack/asdk/asdk-install).
   - Para um script de automação pós-implantação do ASDK, acesse: [https://github.com/mattmcspirit/azurestack](https://github.com/mattmcspirit/azurestack)
   - É possível que essa instalação precise de algumas horas para ser concluída.
-- Implante serviços PaaS do [Serviço de Aplicativo](/azure-stack/operator/azure-stack-app-service-deploy.md) no Azure Stack Hub.
-- [Crie planos/ofertas](/azure-stack/operator/service-plan-offer-subscription-overview.md) no ambiente do Azure Stack Hub.
-- [Crie uma assinatura de locatário](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm.md) no ambiente do Azure Stack Hub.
+- Implante serviços PaaS do [Serviço de Aplicativo](/azure-stack/operator/azure-stack-app-service-deploy) no Azure Stack Hub.
+- [Crie planos/ofertas](/azure-stack/operator/service-plan-offer-subscription-overview) no ambiente do Azure Stack Hub.
+- [Crie uma assinatura de locatário](/azure-stack/operator/azure-stack-subscribe-plan-provision-vm) no ambiente do Azure Stack Hub.
 - Crie um aplicativo Web na assinatura de locatário. Anote a nova URL do aplicativo Web para uso posterior.
 - Implante a máquina virtual (VM) do Azure Pipelines na assinatura do locatário.
 - É necessário ter a VM do Windows Server 2016 com o .NET 3.5. Essa VM será criada na assinatura de locatário no Azure Stack Hub como o agente de compilação particular.
-- [O Windows Server 2016 com a imagem da VM do SQL 2017](/azure-stack/operator/azure-stack-add-vm-image.md) está disponível no Marketplace do Azure Stack Hub. Caso essa imagem esteja indisponível, trabalhe com um operador do Azure Stack Hub para garantir que ele seja adicionado ao ambiente.
+- [O Windows Server 2016 com a imagem da VM do SQL 2017](/azure-stack/operator/azure-stack-add-vm-image) está disponível no Marketplace do Azure Stack Hub. Caso essa imagem esteja indisponível, trabalhe com um operador do Azure Stack Hub para garantir que ele seja adicionado ao ambiente.
 
 ## <a name="issues-and-considerations"></a>Problemas e considerações
 
@@ -79,7 +79,7 @@ Atualize o arquivo de zona DNS do domínio. O Azure AD verificará a propriedade
 Configure o CI/CD (integração contínua/implantação contínua) para implantar aplicativos Web no Azure e no Azure Stack Hub e enviar alterações por push a ambas as nuvens.
 
 > [!Note]  
-> São necessários o Azure Stack Hub, com imagens apropriadas agregadas para execução (Windows Server e SQL), e a implantação do Serviço de Aplicativo. Para obter mais informações, confira a documentação do Serviço de Aplicativo sobre os [Pré-requisitos de implantação do Serviço de Aplicativo no Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started.md).
+> São necessários o Azure Stack Hub, com imagens apropriadas agregadas para execução (Windows Server e SQL), e a implantação do Serviço de Aplicativo. Para obter mais informações, confira a documentação do Serviço de Aplicativo sobre os [Pré-requisitos de implantação do Serviço de Aplicativo no Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started).
 
 ### <a name="add-code-to-azure-repos"></a>Adicionar código ao Azure Repos
 
@@ -157,7 +157,7 @@ O Azure Pipelines e o Azure DevOps Services fornecem um pipeline altamente confi
   
       ![Selecionar pacote ou pasta para o ambiente do Serviço de Aplicativo do Azure](media/solution-deployment-guide-cross-cloud-scaling/image12.png)
 
-      ![Selecionar pacote ou pasta para o ambiente do Serviço de Aplicativo do Azure](media/solution-deployment-guide-cross-cloud-scaling/image13.png)
+      ![Caixa de diálogo do seletor de pasta 1](media/solution-deployment-guide-cross-cloud-scaling/image13.png)
 
 9. Salve todas as alterações e volte para o **pipeline de lançamento**.
 
@@ -194,7 +194,7 @@ O Azure Pipelines e o Azure DevOps Services fornecem um pipeline altamente confi
 
     ![Selecionar a pasta para a Implantação do Serviço de Aplicativo do Azure](media/solution-deployment-guide-cross-cloud-scaling/image22.png)
 
-    ![Selecionar a pasta para a Implantação do Serviço de Aplicativo do Azure](media/solution-deployment-guide-cross-cloud-scaling/image23.png)
+    ![Caixa de diálogo do seletor de pasta 2](media/solution-deployment-guide-cross-cloud-scaling/image23.png)
 
 18. Na guia Variável, adicione uma variável chamada `VSTS\_ARM\_REST\_IGNORE\_SSL\_ERRORS`, defina seu valor como **true** e configura o escopo no Azure Stack.
 
@@ -211,7 +211,7 @@ O Azure Pipelines e o Azure DevOps Services fornecem um pipeline altamente confi
 21. Salvar todas as alterações.
 
 > [!Note]  
-> Algumas configurações para as tarefas podem ter sido definidas automaticamente como [variáveis de ambiente](/azure/devops/pipelines/release/variables?tabs=batch&view=vsts#custom-variables) na criação de uma definição da versão a partir de um modelo. Essas configurações não podem ser modificadas nas configurações da tarefa. Em vez disso, o item do ambiente pai deve ser selecionado para editar essas configurações.
+> Algumas configurações para as tarefas podem ter sido definidas automaticamente como [variáveis de ambiente](/azure/devops/pipelines/release/variables?tabs=batch#custom-variables) na criação de uma definição da versão a partir de um modelo. Essas configurações não podem ser modificadas nas configurações da tarefa. Em vez disso, o item do ambiente pai deve ser selecionado para editar essas configurações.
 
 ## <a name="publish-to-azure-stack-hub-via-visual-studio"></a>Publicar no Azure Stack Hub por meio do Visual Studio
 
@@ -242,7 +242,7 @@ Agora que as informações do ponto de extremidade existem, a conexão do Azure 
 ## <a name="develop-the-app-build"></a>Desenvolver o build do aplicativo
 
 > [!Note]  
-> São necessários o Azure Stack Hub, com imagens apropriadas agregadas para execução (Windows Server e SQL), e a implantação do Serviço de Aplicativo. Para obter mais informações, confira [Pré-requisitos para implantar o Serviço de Aplicativo no Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started.md).
+> São necessários o Azure Stack Hub, com imagens apropriadas agregadas para execução (Windows Server e SQL), e a implantação do Serviço de Aplicativo. Para obter mais informações, confira [Pré-requisitos para implantar o Serviço de Aplicativo no Azure Stack Hub](/azure-stack/operator/azure-stack-app-service-before-you-get-started).
 
 Use modelos do [Azure Resource Manager](https://azure.microsoft.com/resources/templates/) como código do aplicativo Web do Azure Repos para implantar em ambas as nuvens.
 
@@ -286,7 +286,7 @@ Criar uma definição da versão é a etapa final no processo de build do aplica
 
 2. Na guia **Versões**, selecione **[+]** e escolha **Criar definição de versão**.
 
-3. Em **Selecionar um modelo**, escolha **Implantação do Serviço de Aplicativo do Azure**e selecione **Aplicar**.
+3. Em **Selecionar um modelo**, escolha **Implantação do Serviço de Aplicativo do Azure** e selecione **Aplicar**.
 
 4. Em **Adicionar artefato** na **Origem (Definição de build)** , selecione o aplicativo de build do Azure Cloud.
 
@@ -329,7 +329,7 @@ Criar uma definição da versão é a etapa final no processo de build do aplica
 23. Salvar todas as alterações.
 
 > [!Note]  
-> Algumas configurações para as tarefas de lançamento são automaticamente definidas como [variável de ambiente](/azure/devops/pipelines/release/variables?tabs=batch&view=vsts#custom-variables) ao criar uma definição da versão de um modelo. Essas configurações não podem ser modificadas nas configurações de tarefa, mas podem ser modificadas nos itens do ambiente pai.
+> Algumas configurações para as tarefas de lançamento são automaticamente definidas como [variável de ambiente](/azure/devops/pipelines/release/variables?tabs=batch#custom-variables) ao criar uma definição da versão de um modelo. Essas configurações não podem ser modificadas nas configurações de tarefa, mas podem ser modificadas nos itens do ambiente pai.
 
 ## <a name="create-a-release"></a>Criar uma versão
 
