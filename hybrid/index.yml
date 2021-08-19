@@ -295,15 +295,15 @@ additionalContent:
               text: Clusters do Kubernetes altamente disponíveis
         - title: Implantar exemplos de solução de aplicativo
           links:
-            - url: ./app-solutions/solution-deployment-guide-cross-cloud-scaling.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-cross-cloud-scaling
               text: Escala entre nuvens
             - url: 'https://aka.ms/hybriddevopsdeploy'
               text: CI/CD híbrido de DevOps
-            - url: ./app-solutions/solution-deployment-guide-retail-footfall-detection.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-retail-footfall-detection
               text: Detecção de clientela (varejo)
-            - url: ./app-solutions/solution-deployment-guide-geo-distributed.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-geo-distributed
               text: Aplicativo distribuído geograficamente
-            - url: ./app-solutions/solution-deployment-guide-highly-available-kubernetes.md
+            - url: /azure/architecture/hybrid/deployments/solution-deployment-guide-highly-available-kubernetes
               text: Clusters do Kubernetes altamente disponíveis
     - title: Recursos de avaliação e aprendizado
       items:

@@ -33,29 +33,29 @@
 - name: Guias de implantação de solução
   items:
     - name: Escala entre nuvens
-      href: solution-deployment-guide-cross-cloud-scaling.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-cross-cloud-scaling
     - name: Escala entre nuvens (dados locais)
-      href: solution-deployment-guide-cross-cloud-scaling-onprem-data.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-cross-cloud-scaling-onprem-data
     - name: CI/CD híbrido de DevOps
       href: 'https://aka.ms/hybriddevopsdeploy'
     - name: Detecção de clientela (varejo)
-      href: solution-deployment-guide-retail-footfall-detection.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-retail-footfall-detection
     - name: Aplicativo distribuído geograficamente
-      href: solution-deployment-guide-geo-distributed.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-geo-distributed
     - name: Clusters do Kubernetes com alta disponibilidade
-      href: solution-deployment-guide-highly-available-kubernetes.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-highly-available-kubernetes
     - name: Conectividade híbrida
-      href: solution-deployment-guide-connectivity.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-connectivity
     - name: Identidade híbrida
-      href: solution-deployment-guide-identity.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-identity
     - name: Retransmissão híbrida
       href: 'https://aka.ms/hybridrelaydeployment'
     - name: Dados em camadas
       href: 'https://aka.ms/tiereddatadeploy'
     - name: MongoDB de alta disponibilidade
-      href: solution-deployment-guide-mongodb-ha.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-mongodb-ha
     - name: SQL Server 2016 de alta disponibilidade
-      href: solution-deployment-guide-sql-ha.md
+      href: /azure/architecture/hybrid/deployments/solution-deployment-guide-sql-ha
     - name: Indisponibilidade de estoque na borda
       href: 'https://aka.ms/edgeinferencingdeploy'
     - name: Treinamento de modelos de ML na borda
