@@ -7,12 +7,12 @@ ms.date: 10/31/2019
 ms.author: bryanla
 ms.reviewer: anajod
 ms.lastreviewed: 10/31/2019
-ms.openlocfilehash: 866557ec3af2337e9f034da84cf417675508563b
-ms.sourcegitcommit: 962334135b63ac99c715e7bc8fb9282648ba63c9
+ms.openlocfilehash: 79fb39d418bed53ef6a78980fcd9188bdf6e57ae
+ms.sourcegitcommit: df06f598da09074d387f5f765f7c4237af98fb59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104895322"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "122281271"
 ---
 # <a name="footfall-detection-pattern"></a>Padrão de detecção de clientela
 
@@ -88,4 +88,4 @@ Para saber mais sobre os tópicos apresentados neste artigo:
 - Consulte o [padrão de dados em camadas](https://aka.ms/tiereddatadeploy), que é usado pelo padrão de detecção de clientela.
 - Consulte o [Kit de Desenvolvimento de IA da Visão Personalizada](https://azure.github.io/Vision-AI-DevKit-Pages/) para saber mais sobre como usar a visão personalizada. 
 
-Quando tudo estiver pronto para testar o exemplo de solução, prossiga com o [guia de implantação da detecção de clientela](solution-deployment-guide-retail-footfall-detection.md). O guia de implantação fornece instruções passo a passo para a implantação e o teste de seus componentes.
+Quando tudo estiver pronto para testar o exemplo de solução, prossiga com o [guia de implantação da detecção de clientela](/azure/architecture/hybrid/deployments/solution-deployment-guide-retail-footfall-detection). O guia de implantação fornece instruções passo a passo para a implantação e o teste de seus componentes.

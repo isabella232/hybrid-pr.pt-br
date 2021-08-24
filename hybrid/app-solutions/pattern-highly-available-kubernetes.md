@@ -7,12 +7,12 @@ ms.date: 12/03/2020
 ms.author: bryanla
 ms.reviewer: bryanla
 ms.lastreviewed: 12/03/2020
-ms.openlocfilehash: 454cc0a0531882b7a8ec050a461420ce13eebcfe
-ms.sourcegitcommit: df7e3e6423c3d4e8a42dae3d1acfba1d55057258
+ms.openlocfilehash: f8a733bcdab871695e552ec687d42e3ff4230490
+ms.sourcegitcommit: df06f598da09074d387f5f765f7c4237af98fb59
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96911997"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "122281305"
 ---
 # <a name="high-availability-kubernetes-cluster-pattern"></a>Padrão de cluster do Kubernetes de alta disponibilidade
 
@@ -394,4 +394,4 @@ Para saber mais sobre os conceitos apresentados neste artigo:
 - [Escala entre nuvens](pattern-cross-cloud-scale.md) e [padrões de aplicativo distribuídos geograficamente](pattern-geo-distributed.md) no Azure Stack Hub.
 - [Arquitetura de microsserviços no AKS (Serviço de Kubernetes do Azure)](/azure/architecture/reference-architectures/microservices/aks).
 
-Quando estiver pronto para testar o exemplo de solução, prossiga com o [Guia de implantação de cluster de alta disponibilidade do Kubernetes](solution-deployment-guide-highly-available-kubernetes.md). O guia de implantação fornece instruções passo a passo para a implantação e o teste de seus componentes.
+Quando estiver pronto para testar o exemplo de solução, prossiga com o [Guia de implantação de cluster de alta disponibilidade do Kubernetes](/azure/architecture/hybrid/deployments/solution-deployment-guide-highly-available-kubernetes). O guia de implantação fornece instruções passo a passo para a implantação e o teste de seus componentes.
